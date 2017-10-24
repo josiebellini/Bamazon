@@ -21,11 +21,11 @@ The app then prompts users with two messages:
 
 Once the customer has placed the order, the application checks if your store has enough of the product to meet the customer's request. If not, the app informs the customer, and prevents the order from going through.
 
-<img width="606" alt="2" src="https://user-images.githubusercontent.com/28957688/31949847-e4b4f66a-b89f-11e7-9508-5b3d9e09f823.png">
+<img width="607" alt="3" src="https://user-images.githubusercontent.com/28957688/31949868-f18034cc-b89f-11e7-9460-4c32e3832356.png">
 
 If the store does have enough of the product, we should fulfill the customer's order, which means:
 
    * SQL database updates to reflect the remaining quantity.
    * Once the update goes through, we show the customer the total cost of their purchase.
 
-<img width="607" alt="3" src="https://user-images.githubusercontent.com/28957688/31949868-f18034cc-b89f-11e7-9460-4c32e3832356.png">
+<img width="606" alt="2" src="https://user-images.githubusercontent.com/28957688/31949847-e4b4f66a-b89f-11e7-9508-5b3d9e09f823.png">
